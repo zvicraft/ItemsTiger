@@ -1,0 +1,12 @@
+name: ItemsTiger
+version: '${project.version}'
+main: ml.zvicraft.dev.itemstiger.ItemsTiger
+api-version: 1.18
+load: STARTUP
+#depend: [NoteBlockAPI]
+#softdepend: [NoteBlockAPI]
+commands:
+  getitems:
+    description: give-items
+    usage: getitems
+    aliases: gei
